@@ -1,0 +1,139 @@
+
+html {
+    
+font-family: 'Lato', sans-serif;
+font-weight:300;
+}
+
+.scrollspy:target {
+   padding-top: 100px;
+    margin-top: -100px;
+}
+
+main { padding-top: 35px; }
+
+
+
+h3 {
+      padding: 0;
+      border: 0;
+      margin: 0;
+    }
+
+.cardy {
+    
+ 
+    padding: 15px !important;
+    background-color: #fafafa;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cardy2 {
+    
+ 
+    padding: 10px !important;
+    background-color: #fafafa;
+}
+
+.rowy {
+    background-color: #fafafa;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.paddy {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.thick {
+    font-weight: 400 !important;
+}
+
+nav {
+  background-color: #939598;
+}
+
+.bluey {
+    
+    background-color: #0F2946;
+}
+
+.greyy {
+    
+    background-color: #939598;
+}
+
+.textback {
+    color: white;
+    text-shadow: 0 2px black;
+    
+}
+
+.tinted { filter: brightness(50%); }
+
+nav ul li a{
+  color: white;
+}  
+
+.img-logo-vertical {
+	position: relative;
+	top: 50%;
+	transform:translateY(5%);
+}
+
+.slider .slides li .caption {
+    
+   
+}
+
+
+nav {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+
+nav ul a.active {
+  color:#0F2946;
+}
+
+.background-repeat {
+    
+    
+background-image: url(/img/ambulance.png);
+    background-size: 50px;
+  background-repeat: repeat space; 
+
+
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 100px;
+        line-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .row > .valign-wrapper {
+    display: inherit;
+  }
+    
+    .mgap {
+    margin-bottom: 20px;
+}
+}
